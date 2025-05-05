@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Contact | Django Portfolio{% endblock %}
+
+{% block content %}
+<h1>Contact Me</h1>
+<form>
+    <label>Name:</label>
+    <input type="text" placeholder="Your name">
+
+    <label>Email:</label>
+    <input type="email" placeholder="Your email">
+
+    <label>Message:</label>
+    <textarea rows="5" placeholder="Your message"></textarea>
+
+    <button type="submit" class="btn">Send</button>
+</form>
+{% endblock %}
